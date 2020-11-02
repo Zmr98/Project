@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">LMS</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="group1">Higher National Diploma in Accountancy - (HNDA)</string>
+    <string name="group2">Higher National Diploma in Business Administration - (HNDBA)</string>
+    <string name="group3">Higher National Diploma in Business Finance - (HNDBF)</string>
+    <string name="group4">Higher National Diploma in English - (HNDE)</string>
+    <string name="group5">Higher National Diploma in Information Technology - (HNDIT)</string>
+    <string name="group6">Higher National Diploma in Tourism and Hospitality Management - (HNDTHM)</string>
+    <string name="group7">Higher National Diploma in Management - (HNDM)</string>
+
+    <string-array name="group1">
+        <item>HNDA4204 Advanced Auditing &amp; Assurance</item>
+        <item>HNDA4203 Strategic Financial Management</item>
+        <item>HNDA4202 Financial Statement Analysis</item>
+        <item>HNDA4201 Strategic Management Accounting</item>
+        <item>HNDA3204 Business System I</item>
+        <item>HNDA3203 Organizational Behaviour and Human Resources Management</item>
+        <item>HNDA3202 Corporate Law</item>
+        <item>HNDA3201 Advanced Financial Reporting</item>
+        <item>HNDA2204 Business Communication IV</item>
+        <item>HNDA2203 Marketing Management</item>
+        <item>HNDA2202 Computer Applications for Accounting</item>
+        <item>HNDA2201 Cost &amp; Management Accounting</item>
+        <item>HNDA1205 Computer Applications</item>
+        <item>HNDA1204 Business Communication II</item>
+        <item>HNDA1203 Micro &amp; Macro Economics</item>
+        <item>HNDA1202 Statistical Analysis for Management</item>
+        <item>HNDA1201 Intermediate Financial Accounting</item>
+        <item>HNDA2205 Project Management tools and Programming</item>
+
+    </string-array>
+
+    <string-array name="group2">
+        <item>BA1201 Macroeconomics</item>
+        <item>BA1202 Human Resource Management</item>
+        <item>BA1203 Cost and Management Accounting</item>
+        <item>BA1204 Marketing Management</item>
+        <item>BA1205 Information Technology II</item>
+        <item>BA1206 Business Communication II</item>
+        <item>BA1207 Human Value</item>
+        <item>BA2201 Business Ethics and Corporate Responsibility</item>
+        <item>BA2202 Operational Management</item>
+        <item>BA2203 Management Information System</item>
+        <item>BA2204 Managing Productivity and Quality</item>
+        <item>BA2205 Organizational Change and Development</item>
+        <item>BA2206 Banking and Insurance</item>
+        <item>BA2207 Business Communication IV</item>
+
+    </string-array>
+
+    <string-array name="group3">
+        <item>BF1201 Macro Economics</item>
+        <item>BF1202 Enterprise operations</item>
+        <item>BF1203 Cost &amp; Mgt Accounting</item>
+        <item>BF1204 Business Mathematics &amp; Statistics II</item>
+        <item>BF1205 Computer Application for Finance</item>
+        <item>BF1206 Business Communication II</item>
+        <item>BF1207 Human Values</item>
+        <item>BF2201 Investment &amp; Portfolio Management</item>
+        <item>BF2202 Operation Research</item>
+        <item>BF2203 Corporate Finance</item>
+        <item>BF2204 Risk Management</item>
+        <item>BF2205 Financial Modelling &amp; Forecasting</item>
+        <item>BF2206 Banking &amp; Insurance</item>
+        <item>BF2207 Business Communication IV</item>
+
+    </string-array>
+
+    <string-array name="group4">
+        <item>EN1211 Intermediate Reading &amp; Vocabulary Development</item>
+        <item>EN1212 Effective Communication Skills II</item>
+        <item>EN1213 Listening Skills II</item>
+        <item>EN1214 Language Structure, Usage &amp; Linguistics II</item>
+        <item>EN1215 British &amp; American literature</item>
+        <item>EN1216 Professional Writing II</item>
+        <item>EN1217 Computer Assisted Language Learning &amp; Study Skills II</item>
+        <item>EN2211 Advanced Reading Skills &amp; Vocabulary Development II</item>
+        <item>EN2214 Language Structure, Usage and Linguistics IV</item>
+        <item>EN2215 Sri Lankan Literature</item>
+        <item>EN2216 Advanced Professional Writing</item>
+        <item>EN2219 English Language Teaching Methodology II</item>
+        <item>EN2220 Fundamental Business English II</item>
+        <item>EN2221 Fundamental Journalism II</item>
+        <item>EN2222 Principles of Education</item>
+        <item>EN2223 Intermediate Business English</item>
+        <item>EN2224 Intermediate Journalism</item>
+        <item>EN2225 Educational Measurement</item>
+        <item>EN2226 Advanced Business English I</item>
+        <item>EN 2227 Advanced Journalism I</item>
+        <item>EN2228 Educational Psychology</item>
+        <item>EN2229 Advanced Business English II</item>
+        <item>EN2230 Advanced Journalism II</item>
+
+    </string-array>
+
+    <string-array name="group5">
+        <item>HNDIT1209 Object Oriented Programming</item>
+        <item>HNDIT1210 Graphics and Multimedia</item>
+        <item>HNDIT1211 Data Structures and Algorithms</item>
+        <item>HNDIT1212 Systems Analysis and Design</item>
+        <item>HNDIT1213 Data Communications and Networks</item>
+        <item>HNDIT1214 Statistics for IT</item>
+        <item>HNDIT1215 English for Technology II</item>
+        <item>HNDIT1216 Human Values and Professional Ethics</item>
+        <item>HNDIT2401 Computer Architecture</item>
+        <item>HNDIT2402 Open Source Systems</item>
+        <item>HNDIT2403 Profesional issues in IT</item>
+        <item>HNDIT2404 Project(Individual)</item>
+        <item>HNDIT2405 English for Technology IV</item>
+        <item>HNDIT2411 Enterprise Architecture</item>
+        <item>HNDIT2412 Software Configuration Management</item>
+        <item>HNDIT2413 Web Programming</item>
+        <item>HNDIT2414 Computer Graphics and Animation</item>
+        <item>HNDIT2415 Digital Image Processing</item>
+        <item>HNDIT2416 Digital Video and Audio</item>
+        <item>HNDIT2417 Mobile Application Development</item>
+        <item>HNDIT2421 Server Administration</item>
+        <item>HNDIT2422 Network &amp; Data Centre Operations</item>
+        <item>HNDIT2423 Disaster Recovery &amp; Business Continuity Planning</item>
+        <item>HNDIT2424 Database Administration</item>
+
+    </string-array>
+
+    <string-array name="group6">
+        <item>THM 22303 FRENCH LANGUAGE PROFICIENCY LEVEL - III</item>
+        <item>THM 22293 JAPANESE LANGUAGE PROFICIENCY LEVEL - III</item>
+        <item>THM 22283 GERMAN LANGUAGE PROFICIENCY LEVEL - III</item>
+        <item>THM 22273 PROFESSIONAL COMMUNICATION - IV</item>
+        <item>THM 22263 INFORMATION TECHNOLOGY IV</item>
+        <item>THM 22253 ACCOUNTING FOR HOTEL MANAGEMENT</item>
+        <item>THM 22243 HOSPITALITY AND CATERING</item>
+        <item>THM 22233 HUMAN RESOURCE MANAGEMENT IN HOSPITALITY</item>
+        <item>THM 12143 FRENCH LANGUAGE PROFICIENCY LEVEL I</item>
+        <item>THM 12133 JAPANESE LANGUAGE PROFICIENCY LEVEL I</item>
+        <item>THM 12123 GERMAN LANGUAGE PROFICIENCY LEVEL I</item>
+        <item>THM 12113 PROFESSIONAL COMMUNICATION - II</item>
+        <item>THM 12103 INFORMATION TECHNOLOGY - II</item>
+        <item>THM 12093 ENTREPRENEURIAL TOURISM</item>
+        <item>THM 12083 TOURISM POLICY, PLANNING AND DEVELOPMENT</item>
+        <item>THM 12073 INTRODUCTION TO THE HOSPITALITY INDUSTRY</item>
+
+    </string-array>
+
+    <string-array name="group7">
+        <item>MAN 4104 Leadership</item>
+        <item>MAN 3238 Evaluating and Managing International Marketing Programmes</item>
+        <item>MAN 3227 Managing International HRM Policy and Process</item>
+        <item>MAN 3222 Total Quality Management</item>
+        <item>MAN 3221 Research Supervision</item>
+        <item>MAN 1216 Human Values &amp; Professional Ethics</item>
+        <item>MAN 1212 Business Law</item>
+        <item>MAN 1211 Business Economics</item>
+        <item>MAN 1210 Cost and Management Accounting</item>
+        <item>MAN 1209 Fundamentals of Human Recourses Management</item>
+        <item>MAN 1208 Introduction to Information Technology</item>
+        <item>MAN 1207 Business Communication -II</item>
+        <item>MAN 4106 Managing Projects</item>
+        <item>MAN 2236 Analyzing Consumer Behavior for Specific Markets</item>
+        <item>MAN 2235 Implementing and Monitoring Marketing Activities</item>
+        <item>MAN 2234 Merchandising and Logistics Mgt</item>
+        <item>MAN 2226 Reward Management</item>
+        <item>MAN 2225 Managing Industrial Relations</item>
+        <item>MAN 2224 Ensuring Safe Workplace</item>
+        <item>MAN 2217 Teamwork and Diversity Management</item>
+        <item>MAN 2216 Managing Organizational Change</item>
+    </string-array>
+
+    <!--<string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>-->
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This layout is required only if you are going to
+show the list of selected images-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="3dp">
+
+        <!--<ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_image"
+            android:tint="@color/colorAccent" />-->
+
+        <TextView
+            android:id="@+id/txtImageName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sample_image_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <!--<ImageButton
+            android:id="@+id/btnRemoveImage1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_delete"
+            android:tint="@android:color/holo_red_dark" />-->
+
+        <!--<CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox_del"/>-->
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnRemoveImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:tint="@android:color/holo_red_dark"
+        android:layout_alignParentRight="true" />
+
+
+
+</RelativeLayout>

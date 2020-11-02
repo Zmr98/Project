@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "394971385574",
+    "firebase_url": "https://androidlms-4434c.firebaseio.com",
+    "project_id": "androidlms-4434c",
+    "storage_bucket": "androidlms-4434c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394971385574:android:a1bfdaadad307b067ff527",
+        "android_client_info": {
+          "package_name": "com.example.lms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394971385574-mp7ltnhdvqhsca35rhaio388s2kir34u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUg543XDt8znLUJs0F4o1b52EEDy0GoE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394971385574-mp7ltnhdvqhsca35rhaio388s2kir34u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

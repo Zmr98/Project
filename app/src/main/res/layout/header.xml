@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:background="#2e84d5"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+    <!--<ImageView
+        android:id="@+id/navUserPhoto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_user"
+        android:paddingTop="8dp"
+        tools:ignore="VectorDrawableCompat" />
+-->
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="65dp"
+        android:src="@drawable/ic_book" />
+
+    <TextView
+        android:id="@+id/navUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="LMS"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/navUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Learning Management System" />
+
+</LinearLayout>

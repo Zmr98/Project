@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lms">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lmslogo"
+        android:label="LMS"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".admin.adminactivity.it.HNDIT2424adm"></activity>
+        <activity android:name=".admin.adminactivity.it.HNDIT2423adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2422adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2421adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2417adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2416adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2415adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2414adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2413adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2412adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2411adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2405adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2404adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2403adm" />
+<!--        <activity android:name=".admin.adminactivity.it.HNDIT2403" />-->
+        <activity android:name=".admin.adminactivity.it.HNDIT2402adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT2401adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT1216adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT1215adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT1214adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT1213adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT1212adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT1211adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT1210adm" />
+        <activity android:name=".admin.adminactivity.it.HNDIT1209adm" />
+        <activity android:name=".admin.ViewStudents.ViewStudents" />
+        <activity android:name=".adminPanel.AdminDetails" />
+        <activity android:name=".adminPanel.NewAdmin" />
+        <activity android:name=".adminPanel.AdminPanel" />
+        <activity android:name=".admin.adminactivity.AdmUpdateProfile" />
+        <activity android:name=".admin.adminactivity.AdmProfile" />
+        <activity android:name=".admin.adminactivity.AdminLogin" />
+        <activity android:name=".common.SelectLoginOption" />
+        <activity android:name=".common.StartupScreen" />
+        <activity android:name=".fileupload.SingleUpload" />
+        <activity android:name=".atipastpapers.sem3.Year2018" />
+        <activity android:name=".atipastpapers.sem3.Year2017" />
+        <activity android:name=".atipastpapers.sem3.Year2016" />
+        <activity android:name=".atipastpapers.sem3.Year2015" />
+        <activity android:name=".atipastpapers.sem2.Year2017" />
+        <activity android:name=".atipastpapers.sem2.Year2016" />
+        <activity android:name=".atipastpapers.sem3.SelectYears" />
+        <activity android:name=".atipastpapers.sem2.Year2015" />
+        <activity android:name=".atipastpapers.sem2.SelectYears" />
+        <activity android:name=".atipastpapers.sem1.SelectYears" />
+        <activity android:name=".atipastpapers.sem1.Year2017" />
+        <activity android:name=".atipastpapers.sem1.Year2016" />
+        <activity android:name=".atipastpapers.sem1.Year2015" />
+        <activity android:name=".atipastpapers.sem1.Year2014" />
+        <activity android:name=".atipastpapers.sem1.Year2013" />
+        <activity android:name=".testfiles.Upfiles" />
+        <activity android:name=".SampleUpload" />
+        <activity android:name=".atipastpapers.ItPastPapers" />
+        <activity android:name=".atipastpapers.PastPapers" />
+        <activity android:name=".common.Feedback" />
+        <activity android:name=".fileupload.UploadView" />
+        <activity android:name=".ViewPdfFiles" />
+        <activity android:name=".fileupload.it.UplHNDIT2404" />
+        <activity android:name=".fileupload.it.UplHNDIT2424" />
+        <activity android:name=".fileupload.it.UplHNDIT2423" />
+        <activity android:name=".fileupload.it.UplHNDIT2422" />
+        <activity android:name=".fileupload.it.UplHNDIT2421" />
+        <activity android:name=".fileupload.it.UplHNDIT2417" />
+        <activity android:name=".fileupload.it.UplHNDIT2416" />
+        <activity android:name=".fileupload.it.UplHNDIT2415" />
+        <activity android:name=".fileupload.it.UplHNDIT2414" />
+        <activity android:name=".fileupload.it.UplHNDIT2413" />
+        <activity android:name=".fileupload.it.UplHNDIT2412" />
+        <activity android:name=".fileupload.it.UplHNDIT2411" />
+        <activity android:name=".fileupload.it.UplHNDIT2405" />
+        <activity android:name=".fileupload.it.UplHNDIT2403" />
+        <activity android:name=".fileupload.it.UplHNDIT2402" />
+        <activity android:name=".fileupload.it.UplHNDIT2401" />
+        <activity android:name=".fileupload.it.UplHNDIT1216" />
+        <activity android:name=".fileupload.it.UplHNDIT1215" />
+        <activity android:name=".fileupload.it.UplHNDIT1214" />
+        <activity android:name=".fileupload.it.UplHNDIT1213" />
+        <activity android:name=".fileupload.it.UplHNDIT1212" />
+        <activity android:name=".fileupload.it.UplHNDIT1211" />
+        <activity android:name=".fileupload.it.UplHNDIT1210" />
+        <activity android:name=".fileupload.it.UplHNDIT1209" />
+        <activity android:name=".admin.adminactivity.AdminHome" />
+        <activity android:name=".common.ViewFiles" />
+        <activity android:name=".fileupload.UploadSelectDoc" />
+        <activity android:name=".fileupload.UploadSelectSub" />
+        <activity android:name=".it.HNDIT2424" />
+        <activity android:name=".it.HNDIT2423" />
+        <activity android:name=".it.HNDIT2422" />
+        <activity android:name=".it.HNDIT2421" />
+        <activity android:name=".it.HNDIT2417" />
+        <activity android:name=".it.HNDIT2416" />
+        <activity android:name=".it.HNDIT2415" />
+        <activity android:name=".it.HNDIT2414" />
+        <activity android:name=".it.HNDIT2413" />
+        <activity android:name=".it.HNDIT2412" />
+        <activity android:name=".it.HNDIT2411" />
+        <activity android:name=".it.HNDIT2405" />
+        <activity android:name=".it.HNDIT2404" />
+        <activity android:name=".it.HNDIT2403" />
+        <activity android:name=".it.HNDIT2402" />
+        <activity android:name=".it.HNDIT2401" />
+        <activity android:name=".it.HNDIT1216" />
+        <activity android:name=".it.HNDIT1215" />
+        <activity android:name=".it.HNDIT1214" />
+        <activity android:name=".it.HNDIT1213" />
+        <activity android:name=".it.HNDIT1212" />
+        <activity android:name=".it.HNDIT1211" />
+        <activity android:name=".it.HNDIT1209" />
+        <activity android:name=".it.HNDIT1210" />
+        <activity android:name=".common.UpdatePassword" />
+        <activity android:name=".common.UpdateProfile" />
+        <activity android:name=".common.ProfileActivity" />
+        <activity android:name=".common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".user.Home" />
+        <activity android:name=".user.Registration" />
+        <activity android:name=".user.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

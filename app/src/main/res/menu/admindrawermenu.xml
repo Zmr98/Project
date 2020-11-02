@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/admprofileMenu" android:title="Profile" android:icon="@drawable/ic_user"/>
+    <!--<item android:id="@+id/admhome" android:title="Home" android:icon="@drawable/ic_home"/>-->
+    <item android:id="@+id/admupload" android:title="Upload" android:icon="@drawable/ic_file_upload"/>
+    <item android:id="@+id/admpasspaper" android:title="Past Papers" android:icon="@drawable/ic_passpaers"/>
+    <item android:id="@+id/admAddAdmin" android:title="Admin Panel" android:icon="@drawable/ic_admin_list"/>
+    <item android:id="@+id/admStAdmin" android:title="Students List" android:icon="@drawable/ic_admin_list"/>
+    <item android:id="@+id/admfeedback" android:title="Feedback" android:icon="@drawable/ic_feedback"/>
+    <item android:id="@+id/admlogout" android:title="Logout" android:icon="@drawable/ic_logout"/>
+</menu>

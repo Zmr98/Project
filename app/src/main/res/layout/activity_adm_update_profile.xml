@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.adminactivity.AdmUpdateProfile">
+
+    <ImageView
+        android:id="@+id/ivAdmProfileUpdate"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        app:srcCompat="@drawable/ic_user"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/etAdmNameUpdate"
+        android:layout_width="215dp"
+        android:layout_height="53dp"
+        android:hint="Username"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAdmProfileUpdate"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <EditText
+        android:id="@+id/etAdmDOBUpdate"
+        android:layout_width="215dp"
+        android:layout_height="53dp"
+        android:hint="Date of Birth"
+        android:textSize="22dp"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAdmNameUpdate"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <EditText
+        android:id="@+id/etAdmRegistrationNumUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Registration Number"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAdmDOBUpdate"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <EditText
+        android:id="@+id/etAdmEmailUpdate"
+        android:layout_width="215dp"
+        android:layout_height="53dp"
+        android:hint="Email"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAdmRegistrationNumUpdate"
+        app:layout_constraintVertical_bias="0.100" />
+
+    <Button
+        android:id="@+id/btnAdmSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAdmEmailUpdate"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <EditText
+        android:id="@+id/etAdmPasswordUpdate"
+        android:layout_width="215dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textSize="22dp"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnAdmSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAdmEmailUpdate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
